@@ -56,22 +56,23 @@ Upon completion, learners will have gained proficiency in:
 - **In-Context Learning and Prompt Engineering**
 - **Chatbots**
 
-## Instructors
+## How To Run
 
-The courses are led by experienced professionals from IBM, including:
+1. Install python (currently using ```Python 3.12.9```)
+2. Create a env 
+    ```
+      python -m venv ./env/
+    ```
+3. Activate env 
+    ```
+     .\env\Scripts\activate 
+     ```
+4. Install jupyter 
+    ```
+    pip install jupyterlab
+    ```
+5. Launch Jupytr
 
-- [Sina Nazeri](https://www.coursera.org/instructor/~137)
-- [Fateme Akbari](https://www.coursera.org/instructor/~138)
-- [Wojciech 'Victor' Fulmyk](https://www.coursera.org/instructor/~139)
-- [Kang Wang](https://www.coursera.org/instructor/~140)
-- [Ashutosh Sagar](https://www.coursera.org/instructor/~141)
-- [Joseph Santarcangelo](https://www.coursera.org/instructor/~142)
-- [Roodra Pratap Kanwar](https://www.coursera.org/instructor/~143)
-
-## Enrollment
-
-The specialization is available for enrollment on Coursera.  
-Financial aid is available for eligible learners.  
-Upon completion, participants will receive a **shareable certificate** to showcase their expertise in generative AI engineering with LLMs.
-
-For more details and to enroll, visit the [Generative AI Engineering with LLMs Specialization page](https://www.coursera.org/specializations/generative-ai-engineering-with-llms).
+    ```
+    jupyter lab
+    ```

@@ -1,2 +1,6 @@
 # Ignore Word temporary files
 ~$*.doc*
+env/*
+**/.ipynb_checkpoints/
+
+
